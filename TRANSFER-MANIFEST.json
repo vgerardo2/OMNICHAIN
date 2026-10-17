@@ -1,0 +1,76 @@
+{
+  "format_version": 1,
+  "project": "SimpSec-OmniChain",
+  "snapshot_date": "2026-10-17",
+  "scope": "Uncompressed public-prototype overview, plan, preparation and laptop handoff; application not implemented",
+  "manifest_self_excluded": true,
+  "original_public_plan_sha256": "d182cefede729159ac2bab2712c4e99a197bbeb084ef5b7c4a1a35d8f2efc1d9",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 492,
+      "sha256": "28c882644bf6ed7fa5de6461d96cd41d32a9e0d52eef584b1a5716d99077c145"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 4854,
+      "sha256": "a465ecd5293debfd3c62c70e2b89c864694d0cce21c3fa468816491f730c92bf"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2598,
+      "sha256": "d0859bff4917321a25845605c84dfafdb5f99933b59c58320800f356c42f94c8"
+    },
+    {
+      "path": "CHECKPOINT.md",
+      "bytes": 4049,
+      "sha256": "86c1e88d28d3ae8679e77c7ab678653e4f4332e86751f89bde534632967a0d48"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7363,
+      "sha256": "470bc08070396bedde186a46f2dbfc0fbc3274a54b94aee984d66094e609e2b7"
+    },
+    {
+      "path": "event-readiness.md",
+      "bytes": 4566,
+      "sha256": "a27703e9cc95090664737b95b0259089f616b2b2291075039ddc12799323a106"
+    },
+    {
+      "path": "laptop-handoff.md",
+      "bytes": 15418,
+      "sha256": "4dee5fb15082de9728376538275d9d1f75090f6883d31f3541409d803662ce1d"
+    },
+    {
+      "path": "laptop-setup.md",
+      "bytes": 11326,
+      "sha256": "3e91980cadee29f1aa17522e37c123451f25df343588bff3224ddc4af2cc5ab0"
+    },
+    {
+      "path": "prototype-implementation-plan.md",
+      "bytes": 21620,
+      "sha256": "d182cefede729159ac2bab2712c4e99a197bbeb084ef5b7c4a1a35d8f2efc1d9"
+    },
+    {
+      "path": "prototype-overview.md",
+      "bytes": 29760,
+      "sha256": "15e220a87aa7c70448f94c438d64d5c989f6409b562e8e252b8dcec3d36102fb"
+    },
+    {
+      "path": "scripts/check-laptop.ps1",
+      "bytes": 4372,
+      "sha256": "bce1cc8a4a0a327e57c39954c6845fb69ae11f411a0c01aaf77b39c8c2672a60"
+    },
+    {
+      "path": "scripts/prepare-python.ps1",
+      "bytes": 4083,
+      "sha256": "7f6cc1d40e8f6e0cc100ac8b1c1d6980964b98ba511e1ae5cf8ad1cded7061be"
+    },
+    {
+      "path": "scripts/verify-transfer.ps1",
+      "bytes": 3685,
+      "sha256": "985cfe1c516f5c9f6c58c9327bd38ad609d2da6697c9678f277c42a2bd36a876"
+    }
+  ],
+  "snapshot_revision": "1.0.1"
+}
