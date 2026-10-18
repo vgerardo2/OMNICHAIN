@@ -80,6 +80,7 @@ qa('[data-node]').forEach((b,i)=>b.onclick=()=>{const observations=state.attack?
 const ticket=q('.oc-invoice').cloneNode(true);q('#oc-story-ticket').replaceChildren(ticket);
 for(let i=0;i<16;i++)q('#oc-story-proof').append(make('span','','◇'));
 const storyScroll=q('#oc-story-scroll'),stages=qa('.oc-story-stage'),stageNames=['The task','The hidden instruction','The linked actions','The defenses','The evidence'];
+const storyBackground=q('.oc-starfield').cloneNode(true);storyBackground.className='oc-story-background';q('.oc-story').prepend(storyBackground);
 function storyPosition(){const top=storyScroll.getBoundingClientRect().top;let active=0;const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;stages.forEach((stage,i)=>{const distance=stage.getBoundingClientRect().top-top;if(distance<storyScroll.clientHeight/2)active=i;stage.style.setProperty('--oc-story-depth',reduced?'0px':Math.max(-24,Math.min(24,distance*.05))+'px');});q('#oc-story-position').textContent=stageNames[active];}
 storyScroll.addEventListener('scroll',storyPosition,{passive:true});storyPosition();
 

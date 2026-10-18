@@ -9,6 +9,12 @@ classification: public-prototype-draft
 
 # Public preparation changelog
 
+## Parallax background update — 2026-10-17
+
+- Matched the opening story to the workspace's drifting starfield and slowly animated teal-to-purple gradient.
+- Made story panels translucent so the background remains visible during scroll transitions; respects reduced-motion settings.
+- Updated the story controller to reuse the existing starfield layers. No assessment or evidence behavior changed.
+
 ## 1.1.0 — 2026-10-17
 
 - Built local Python/SQLite Attack, matched control comparisons, human selection
