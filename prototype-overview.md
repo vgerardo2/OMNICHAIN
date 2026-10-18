@@ -125,10 +125,10 @@ deployment, and event eligibility remain unverified. JEV and HutchDB are not con
 - [Set up optional live AI](docs/live-ai-setup.md).
 - [Review implementation status and observed checks](docs/implementation-status.md).
 - [Read the detailed development plan](prototype-implementation-plan.md).
-- [Read the original design requirements](prototype-design-spec.md).
 
-The original requirements are preserved for development. Planned features in
-those documents are not claims about what this release already does.
+The implementation plan describes planned work. It is not a claim that those
+features are already part of this release. Internal design and working notes
+are kept outside the public repository.
 
 ## Changelog
 
@@ -138,5 +138,5 @@ Added the central question, the Attack/Optimize/Validate responsibilities, and a
 
 ### 2.0.0 — 2026-10-17
 
-Rewrote the public overview in plain language, updated the implementation status,
-and preserved the original specification in `prototype-design-spec.md`.
+Rewrote the public overview in plain language and updated the implementation
+status. Internal design notes are maintained outside the public repository.

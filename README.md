@@ -124,12 +124,13 @@ your download. Read the [prototype overview](prototype-overview.md) for the
 scenario and evidence checks, or the [implementation status](docs/implementation-status.md)
 for tested features and remaining work.
 
-Detailed development requirements remain in the [implementation plan](prototype-implementation-plan.md)
-and [design specification](prototype-design-spec.md). These include planned work;
-they are not a list of completed features. JEV and HutchDB are not connected.
+The [public implementation plan](prototype-implementation-plan.md) describes
+planned work; it is not a list of completed features. Internal design notes,
+quality reviews, and handoff materials are maintained separately from this
+public repository. JEV and HutchDB are not connected.
 
-The three confirmed QA defects have regression fixes. See the
-[plan QA tracker](docs/plan-qa.md) for what is fixed and what remains open.
+See the [implementation status](docs/implementation-status.md) for current
+verification results and known limitations.
 
 Additional guides:
 

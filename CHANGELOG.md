@@ -3,11 +3,17 @@ title: "OmniChain — Public Preparation Changelog"
 owner: SimpSec LLC
 created: 2026-10-17
 updated: 2026-10-17
-version: "1.4.0"
+version: "1.5.0"
 classification: public-prototype-draft
 ---
 
 # Public preparation changelog
+
+## Public documentation cleanup — 2026-10-17
+
+- Kept public guides, status, history of releases, the overview, and the explicitly public prototype implementation plan.
+- Moved internal agent instructions, checkpoints, QA notes, design notes, JEV planning, and laptop handoff materials to the owner's private Obsidian `OMNICHAIN/Private` folder and removed them from this repository.
+- Updated public links and descriptions to avoid pointing at private files.
 
 ## Parallax story readability — 2026-10-17
 
@@ -97,14 +103,14 @@ This checkpoint supersedes earlier pending-login, no-remote and undecided-licens
 
 - Removed the interface design description from the README.
 - Rewrote the README and prototype overview around the attack, evidence, defense review, and validation workflow.
-- Preserved the original overview requirements in prototype-design-spec.md; the original implementation plan is unchanged.
+- Preserved the original implementation plan as the public prototype plan. Internal design notes are maintained privately.
 - Moved optional live AI setup into docs/live-ai-setup.md and simplified visible app explanations and result labels without changing API identifiers or evaluation rules.
 - Replaced preloaded sample scores with Not run until recorded results load.
 
 
 ## Public documentation and interface wording — 2026-10-17
 
-The README and current overview explain the invoice attack chain, evidence, defense selection, and validation in plain language. Optional live setup is in docs/live-ai-setup.md. The original overview is preserved in prototype-design-spec.md; prior implementation checkpoints are in docs/development-status-history.md. The original implementation plan is unchanged. Public app labels have been simplified; API identifiers and evaluation rules are unchanged. JavaScript syntax and diff whitespace checks passed. Final browser verification is recorded with the publication result.
+The README and current overview explain the invoice attack chain, evidence, defense selection, and validation in plain language. Optional live setup is in docs/live-ai-setup.md. Internal design notes and prior checkpoints are maintained privately. The public implementation plan remains available. Public app labels have been simplified; API identifiers and evaluation rules are unchanged. JavaScript syntax and diff whitespace checks passed. Final browser verification is recorded with the publication result.
 
 
 ## Workflow breakdown — 2026-10-17
@@ -114,7 +120,7 @@ Added the central evaluation question and a plain-language Attack/Optimize/Valid
 
 ## Plan QA — 2026-10-17
 
-- Reviewed plans against backend, frontend, tests and release notes. Added docs/plan-qa.md with QA-01 through QA-12 and PT-01 through PT-18 coverage.
+- Reviewed plans against backend, frontend, tests and release notes. Created a QA tracker with QA-01 through QA-12 and PT-01 through PT-18 coverage; internal tracker details are now maintained privately.
 - Existing suite passed 23 tests in 22.519s. Isolated probes confirmed stale current validation status, missing useful-summary evaluation, and false-block unit mismatch; fixes remain pending.
 - Updated continuation metadata, public status limitations and tracker links. Preserved original implementation-plan bytes. No runtime code changes or live provider requests.
 

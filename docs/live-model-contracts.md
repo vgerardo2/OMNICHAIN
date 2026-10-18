@@ -31,9 +31,6 @@ No JEV request, SDK installation, credential setup, or inference integration has
 been performed. The alias is not a pinned revision. The example revision in the
 documentation is not proof that the same revision is available to this account.
 
-The next JEV work is to freeze the question/response schema and labeled fixtures,
-test a bounded adapter with a fake transport, and evaluate it only after explicit
-provider setup and budget approval. Keep JEV judgments separate from observed
-execution and deterministic outcomes. The existing [review plan](../jev-chain-review-plan.md)
-remains the complete requirement set; reference verification does not mark its
-seven implementation tasks complete.
+JEV is not integrated into this prototype. Any future semantic review must stay
+separate from observed execution and deterministic outcomes, and must be evaluated
+against an explicit bounded response contract before it is used.

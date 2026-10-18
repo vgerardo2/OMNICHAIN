@@ -52,15 +52,13 @@ checks, not a claim that every device or browser has been tested.
 
 ## Limits and remaining work
 
-The three confirmed defects in the [plan QA review](plan-qa.md) now have regression
-fixes: current verdicts verify linked dependencies, task completion checks the
-delivered summary, and false blocks count required legitimate action opportunities.
-Remaining graph, recovery, accessibility, live-provider, and release checks are
-tracked separately; the full original plan is not claimed complete.
+The public prototype plan describes planned work; it is not a completion claim.
+Current verification results and product limitations are summarized in this
+document. Internal QA notes and working checkpoints are maintained privately.
 
 - Live Gemma responses, model resistance, provider speed, and actual cost have not been measured.
 - Windows ARM operation has not been tested. There is no public hosted app.
-- JEV and HutchDB are not connected. The [HutchDB review](hutchdb-backend-review.md) explains why SQLite remains the evidence store.
+- JEV and HutchDB are not connected; SQLite remains the local evidence store.
 - The small synthetic suite does not establish protection against every attack, production readiness, compliance, or event eligibility.
 - A person with full control of local storage can rewrite both the evidence and its checks.
 - Cancellation waits for an active provider request to finish or time out. Interrupted runs can have incomplete evidence.
@@ -69,13 +67,9 @@ tracked separately; the full original plan is not claimed complete.
 ## Continue development
 
 Use the [README](../README.md) to start the app. Review the
-[implementation plan](../prototype-implementation-plan.md) for detailed
-requirements and the [live AI setup guide](live-ai-setup.md) before enabling a
-provider. Keep API keys, runtime records, and private material out of source control.
-
-The [development history](development-status-history.md) preserves earlier
-checkpoints, failures, fixes, and publication notes. Older pending-login and
-preparation-only statements there describe earlier work.
+[public implementation plan](../prototype-implementation-plan.md) for planned
+work and the [live AI setup guide](live-ai-setup.md) before enabling a provider.
+Keep API keys, runtime records, and private material out of source control.
 
 ## Changelog
 
@@ -104,7 +98,7 @@ JavaScript syntax and current public documentation links passed checks. The brow
 The latest 41-test run supersedes the earlier 23-test baseline. An intermediate
 run correctly failed its old false-block assertion after changing the measurement
 unit; the assertion was updated to the specified action-level contract. Original
-plan bytes and runtime history are preserved. See plan-qa.md for remaining work.
+plan bytes and runtime history are preserved in the owner's private project notes.
 
 ## Confirmed release checks — 2026-10-17
 
