@@ -3,11 +3,16 @@ title: "OmniChain — Public Preparation Changelog"
 owner: SimpSec LLC
 created: 2026-10-17
 updated: 2026-10-17
-version: "1.3.0"
+version: "1.4.0"
 classification: public-prototype-draft
 ---
 
 # Public preparation changelog
+
+## Parallax story readability — 2026-10-17
+
+- Increased the dark glass surface opacity and blur on each sticky story stage so text from earlier stages cannot show through and compete with the current copy.
+- Preserved the drifting background, teal/purple tint, and reduced-motion behavior.
 
 ## Evidence flow interaction — 2026-10-17
 

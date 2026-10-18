@@ -6653,3 +6653,10 @@ body{margin:0;background:#090e15}#oc-preview{border-radius:0;min-height:100vh}#o
 #oc-preview [data-panel="evidence"]>details[open].oc-panel>summary::after{content:"Close"}
 #oc-preview [data-panel="evidence"] #app-evidence{padding:14px}
 @media(prefers-reduced-motion:reduce){#oc-preview *,#oc-preview *::before,#oc-preview *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}#oc-preview .oc-story-stage{position:relative}#oc-preview .oc-story-object{transform:none!important}}
+
+/* UI-23: keep the layered story's glass surface legible while preserving the moving backdrop. */
+#oc-preview .oc-story-stage{background:linear-gradient(120deg,rgba(7,31,39,.98),rgba(13,20,33,.97) 52%,rgba(26,20,39,.98));-webkit-backdrop-filter:blur(18px) saturate(125%);backdrop-filter:blur(18px) saturate(125%);border-top-color:#8cd9ef55;box-shadow:inset 0 1px 0 #ffffff16,0 -16px 50px #00000055}
+#oc-preview .oc-story-stage:nth-of-type(2){background:linear-gradient(120deg,rgba(8,43,49,.98),rgba(14,22,35,.97) 52%,rgba(34,23,48,.98))}
+#oc-preview .oc-story-stage:nth-of-type(3){background:linear-gradient(120deg,rgba(7,39,48,.98),rgba(18,23,36,.97) 52%,rgba(39,25,53,.98))}
+#oc-preview .oc-story-stage:nth-of-type(4){background:linear-gradient(120deg,rgba(8,43,49,.98),rgba(15,22,36,.97) 52%,rgba(35,24,49,.98))}
+#oc-preview .oc-story-stage:nth-of-type(5){background:linear-gradient(120deg,rgba(7,39,48,.98),rgba(16,23,36,.97) 52%,rgba(39,25,53,.98))}
