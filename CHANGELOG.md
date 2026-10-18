@@ -3,11 +3,18 @@ title: "OmniChain — Public Preparation Changelog"
 owner: SimpSec LLC
 created: 2026-10-17
 updated: 2026-10-17
-version: "1.2.0"
+version: "1.3.0"
 classification: public-prototype-draft
 ---
 
 # Public preparation changelog
+
+## Evidence flow interaction — 2026-10-17
+
+- Restore subtle varied movement to the evidence blocks and conveyor packets.
+- Make block and packet selection open the matching saved event, announce the selected control, and visibly highlight it.
+- Remove hover/focus pausing from the conveyor; retain an explicit pause/start control and honor reduced-motion preferences unless the user starts motion.
+- Keep all movement decorative and use saved events as the only source for the inspector.
 
 ## Remediation approval flow — 2026-10-17
 
