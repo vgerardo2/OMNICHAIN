@@ -6629,4 +6629,18 @@ body{margin:0;background:#090e15}#oc-preview{border-radius:0;min-height:100vh}#o
 #oc-preview .oc-weight-number{width:72px;max-width:100%;display:block;margin-top:8px;padding:7px;background:#142630;color:#f1faff;border:1px solid #80a8b2;border-radius:6px;font:inherit}
 #oc-preview :is(button,input,select,textarea,summary):focus-visible{outline:2px solid #b2ffff;outline-offset:3px}
 #oc-preview .oc-weight-number[aria-invalid="true"]{border-color:#ffb4ad}
+
+/* UX: explain each recorded attack step before exposing the evidence JSON. */
+#oc-preview .oc-story-explainer{margin:12px 0;color:var(--oc-text,#e9f4f5);line-height:1.6}
+#oc-preview .oc-attack-steps{display:grid;gap:9px;margin:12px 0;padding-left:22px;color:var(--oc-text,#e9f4f5);line-height:1.55}
+#oc-preview .oc-attack-steps li{padding-left:3px}
+#oc-preview .oc-story-outcome{margin:14px 0 6px;padding:10px 12px;border-left:3px solid #36d6d2;border-radius:5px;background:#112831;color:#d9fbf6;font-weight:600;line-height:1.5}
+#oc-preview .oc-story-footnote{margin:8px 0 0;color:var(--oc-muted,#b5cbd0);font-size:11px;line-height:1.5}
+#oc-preview .oc-attack-recap{margin-bottom:16px}
+#oc-preview [data-panel="evidence"]>details.oc-panel{margin-top:12px}
+#oc-preview [data-panel="evidence"]>details.oc-panel>summary{cursor:pointer;list-style:none}
+#oc-preview [data-panel="evidence"]>details.oc-panel>summary::-webkit-details-marker{display:none}
+#oc-preview [data-panel="evidence"]>details.oc-panel>summary::after{content:"Open";margin-left:auto;color:#a9e8e1;font-size:12px}
+#oc-preview [data-panel="evidence"]>details[open].oc-panel>summary::after{content:"Close"}
+#oc-preview [data-panel="evidence"] #app-evidence{padding:14px}
 @media(prefers-reduced-motion:reduce){#oc-preview *,#oc-preview *::before,#oc-preview *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}#oc-preview .oc-story-stage{position:relative}#oc-preview .oc-story-object{transform:none!important}}

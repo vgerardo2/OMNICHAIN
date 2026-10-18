@@ -3,11 +3,18 @@ title: "OmniChain — Public Preparation Changelog"
 owner: SimpSec LLC
 created: 2026-10-17
 updated: 2026-10-17
-version: "1.1.0"
+version: "1.2.0"
 classification: public-prototype-draft
 ---
 
 # Public preparation changelog
+
+## Attack run explanation — 2026-10-17
+
+- After an attack finishes, keep the user on the attack view and show a plain-language sequence of the untrusted instruction, observed tool requests, policy outcomes, and any approved task handoff.
+- Add the same explanation above the evidence ledger, label raw JSON as technical details, and collapse it by default.
+- Translate integrity verification into plain language, including names of missing required records.
+- Explanations use recorded synthetic observations; mock sends are explicitly described as simulated and no real message or account data is implied.
 
 ## Parallax background update — 2026-10-17
 
