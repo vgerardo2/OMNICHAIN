@@ -9,6 +9,11 @@ classification: public-prototype-draft
 
 # Public preparation changelog
 
+## Remediation approval flow — 2026-10-17
+
+- Rename the eligible control action to “Approve defense” and label the rationale field as an approval reason.
+- After the human choice and exact settings are recorded, continue directly to the independent Validate phase; retain a clear continuation action for an already selected defense.
+
 ## Attack run explanation — 2026-10-17
 
 - After an attack finishes, keep the user on the attack view and show a plain-language sequence of the untrusted instruction, observed tool requests, policy outcomes, and any approved task handoff.
